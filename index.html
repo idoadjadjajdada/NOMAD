@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nomad: Space Walk</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  #info { position: absolute; top: 12px; left: 16px; right: 16px; color: #ffb36b;
+          font: 14px/1.4 monospace; text-shadow: 0 0 4px #000; pointer-events: none; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="info">NOMAD // space walk prototype. Put on your Quest and press ENTER VR.<br>
+Grip on the hull = grab. Push the hull with your hands to shove off. Trigger = hand jet. Right stick = turn.<br>
+Left X = headlight, left Y = jet power, right A = stabilizer, hold right B = reel in tether. Poke the forearm screen (SWAP moves it to the other arm).</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
